@@ -1,0 +1,330 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pratham Agarwal - Portfolio</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Animated Background -->
+    <div class="animated-background"></div>
+    
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="nav-container">
+            <div class="nav-logo">
+                <a href="#home">PA</a>
+            </div>
+            <ul class="nav-menu">
+                <li class="nav-item">
+                    <a href="#about" class="nav-link">About Me</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#portfolio" class="nav-link">Portfolio</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#tech-stack" class="nav-link">Tech Stack</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#experience" class="nav-link">Experience</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#contact" class="nav-link">Contact</a>
+                </li>
+            </ul>
+            <div class="hamburger">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <!-- Decorative elements -->
+        <div class="hero-decoration">
+            <div class="floating-circle circle-1"></div>
+            <div class="floating-circle circle-2"></div>
+            <div class="floating-circle circle-3"></div>
+            <div class="floating-square square-1"></div>
+            <div class="floating-square square-2"></div>
+        </div>
+        
+        <div class="hero-content">
+            <div class="hero-badge">
+                <i class="fas fa-code"></i>
+                
+            </div>
+            <h1 class="hero-title" >Pratham Agarwal</h1>
+            <p class="hero-subtitle">B.Tech CSE student | Data Analyst | Power BI & ML Enthusiast</p>
+            <div class="hero-buttons">
+                <a href="#about" class="btn btn-primary">
+                    <i class="fas fa-arrow-down"></i>
+                    Learn More
+                </a>
+                <a href="Pratham_Agarwal_Resume.pdf" class="btn btn-secondary" download>
+                    <i class="fas fa-download"></i>
+                    Download Resume
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="section">
+        <div class="container">
+            <h2 class="section-title">About Me</h2>
+            <div class="about-content">
+                <div class="about-image">
+                    <img src="profilepic.jpg" alt="Pratham Agarwal" class="profile-photo">
+                </div>
+                <div class="about-text">
+                    <p>Hello! I'm Pratham Agarwal, a passionate and detail-oriented B.Tech Computer Science student at Bennett University, currently in my 4rd year. I specialize in Data Science, with strong interests in data analytics, machine learning, and business intelligence.</p>
+                    <p>Over the past few years, I've built hands-on experience through projects involving:</p>
+                    <ul style="margin-left: 20px; margin-bottom: 20px;">
+                        <li>Power BI dashboards for business reporting</li>
+                        <li>Predictive models using machine learning</li>
+                        <li>Research work in Deep Learning and explainable AI</li>
+                    </ul>
+                    <p>💡 I'm particularly fascinated by the ability to turn raw data into powerful insights that support real-world decisions — whether it's predicting patient outcomes, analyzing sports trends, or visualizing sales data for executives.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Portfolio Section -->
+    <section id="portfolio" class="section">
+        <div class="container">
+            <h2 class="section-title">Portfolio Showcase</h2>
+            <div class="portfolio-tabs">
+                <button class="tab-btn active" data-tab="projects">Projects</button>
+                <button class="tab-btn" data-tab="certificates">Certificates</button>
+            </div>
+            
+            <div class="tab-content active" id="projects">
+                <div class="portfolio-grid">
+                    <div class="portfolio-card">
+                        <div class="card-image">
+                            <img src="docpat.avif" alt="DOCPAT - Disease Prediction">
+                        </div>
+                        <div class="card-content">
+                            <h3>DOCPAT - Multiple Disease Prediction</h3>
+                            <p>Designed and implemented a multiple disease prediction system for breast cancer, diabetes, liver diseases, heart diseases and detection of Gastrointestinal disease by images using CNN. Utilized machine learning and deep learning algorithms such as CNN, decision trees, logistic regression, SVM, KNN, and MLP.</p>
+                            <div class="card-links">
+                                <a href="https://github.com/Pratham-agg19/Doc-Pat-multiple-disease-prediction-model-" target="_blank" class="btn btn-small"><i class="fab fa-github"></i> GitHub</a>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="portfolio-card">
+                        <div class="card-image">
+                            <img src="1.webp" alt="Alzheimer's Research">
+                        </div>
+                        <div class="card-content">
+                            <h3>Alzheimer's Disease Detection & Classification</h3>
+                            <p>Classified Alzheimer's Disease into four stages using MRI scan data. Implemented multiple models including KNN, Ensemble Model, Combined CNN Model, and CNN with Fine-Tuning (achieved 95% accuracy). Applied Grad-CAM visualization for explainability.</p>
+                            <div class="card-links">
+                                <a href="https://github.com/Pratham-agg19/Reseach-Paper-Early-Detection-and-Classification-of-Alzheimer-s-Disease-with-Grad-CAM-Explainability" target="_blank" class="btn btn-small"><i class="fab fa-github"></i> Research Paper</a>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="portfolio-card">
+                        <div class="card-image">
+                            <img src="powerbi.png" alt="Power BI Dashboard">
+                        </div>
+                        <div class="card-content">
+                            <h3>Sales Insights Data Analysis</h3>
+                            <p>Data-driven approach to analyzing sales performance using structured queries and visual analytics. Extracted and analyzed data using SQL and designed clean, insightful Power BI dashboards for meaningful business insights.</p>
+                            <div class="card-links">
+                                <a href="https://github.com/Pratham-agg19/Sales-Insights-Data-Analysis-Using-Power-BI" target="_blank" class="btn btn-small"><i class="fab fa-github"></i> GitHub</a>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="portfolio-card">
+                        <div class="card-image">
+                            <img src="sports.jpg" alt="Sports League Prediction">
+                        </div>
+                        <div class="card-content">
+                            <h3>Sports League Popularity Prediction</h3>
+                            <p>Analyzed evolution of public interest in major sports leagues using Google Trends data. Implemented time series forecasting models including ARIMA and SARIMA to predict future popularity trends for data-driven decision making.</p>
+                            <div class="card-links">
+                                <a href="https://github.com/Pratham-agg19/Sport-league-popularity-prediction" target="_blank" class="btn btn-small"><i class="fab fa-github"></i> GitHub</a>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="portfolio-card">
+                        <div class="card-image">
+                            <img src="scrrrapit.webp" alt="scRRRap-it Platform">
+                        </div>
+                        <div class="card-content">
+                            <h3>scRRRap-it - Eco-Conscious Platform</h3>
+                            <p>An eco-conscious platform built with HTML, CSS, Django, and SQLite. Streamlines scrap collection booking, offers fixed rates, and incorporates a points redemption system. Users earn rewards while contributing to a cleaner environment.</p>
+                            <div class="card-links">
+                                <a href="https://github.com/Pratham-agg19/scRRRap-it-one-stop-solution-for-scrap-selling-" target="_blank" class="btn btn-small"><i class="fab fa-github"></i> GitHub</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="tab-content" id="certificates">
+                <div class="certificates-grid">
+                    <div class="certificate-card">
+                        <i class="fas fa-certificate"></i>
+                        <h3>Exploratory Data Analysis for Machine Learning</h3>
+                        <p>IBM (Coursera)</p>
+                    </div>
+                    <div class="certificate-card">
+                        <i class="fas fa-certificate"></i>
+                        <h3>Supervised Machine Learning: Regression</h3>
+                        <p>IBM (Coursera)</p>
+                    </div>
+                    <div class="certificate-card">
+                        <i class="fas fa-certificate"></i>
+                        <h3>Improving Deep Neural Networks: Hyperparameter Tuning, Regularization and Optimization</h3>
+                        <p>DeepLearning.AI (Coursera)</p>
+                    </div>
+                    <div class="certificate-card">
+                        <i class="fas fa-certificate"></i>
+                        <h3>Practical Time Series Analysis</h3>
+                        <p>The State University of New York</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Tech Stack Section -->
+    <section id="tech-stack" class="section">
+        <div class="container">
+            <h2 class="section-title">My Tech Stack</h2>
+            <div class="tech-grid">
+                <div class="tech-item" data-tech="Python">
+                    <i class="fab fa-python"></i>
+                    <span>Python</span>
+                </div>
+                <div class="tech-item" data-tech="SQL">
+                    <i class="fas fa-database"></i>
+                    <span>SQL</span>
+                </div>
+                <div class="tech-item" data-tech="Power BI">
+                    <i class="fas fa-chart-bar"></i>
+                    <span>Power BI</span>
+                </div>
+                <div class="tech-item" data-tech="TensorFlow">
+                    <i class="fas fa-brain"></i>
+                    <span>TensorFlow</span>
+                </div>
+                <div class="tech-item" data-tech="Scikit-learn">
+                    <i class="fas fa-robot"></i>
+                    <span>Scikit-learn</span>
+                </div>
+                <div class="tech-item" data-tech="Pandas">
+                    <i class="fas fa-table"></i>
+                    <span>Pandas</span>
+                </div>
+                <div class="tech-item" data-tech="MySQL">
+                    <i class="fas fa-server"></i>
+                    <span>MySQL</span>
+                </div>
+                <div class="tech-item" data-tech="Excel">
+                    <i class="fas fa-file-excel"></i>
+                    <span>Excel</span>
+                </div>
+                <div class="tech-item" data-tech="Git">
+                    <i class="fab fa-git-alt"></i>
+                    <span>Git</span>
+                </div>
+                <div class="tech-item" data-tech="CPP">
+                    <i class="fas fa-code"></i>
+                    <span>C++</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Work Experience Section -->
+    <section id="experience" class="section">
+        <div class="container">
+            <h2 class="section-title">Work Experience</h2>
+            <div class="experience-content">
+                <div class="experience-image">
+                    <img src="internship.jpg" alt="Work Experience" class="experience-photo">
+                </div>
+                <div class="experience-text">
+                    <div class="experience-item">
+                        <h3>Data Science Intern</h3>
+                        <p class="company">Bennett University, Under the guidance of Prof. Mala Sarwaswat</p>
+                        <p class="duration">1 Jul 2024 – 1 Aug 2024</p>
+                        <ul>
+                            <li>Contributed to the project "Explainable AI Scene Classification and GradCam Visualization."</li>
+                            <li>Applied machine learning models for image classification and implemented GradCam for visual explanation.</li>
+                            <li>Gained expertise in handling varied image sizes, data augmentation, and normalization techniques to reduce bias.</li>
+                            <li>Utilized Python, TensorFlow, and OpenCV to analyze datasets and improve model performance.</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="section">
+        <div class="container">
+            <h2 class="section-title">Contact Me</h2>
+            <div class="contact-content">
+                <div class="contact-info">
+                    <h3>Get In Touch</h3>
+                    <p>I'm always interested in new opportunities and collaborations. Feel free to reach out!</p>
+                    <div class="social-links">
+                        <a href="https://www.linkedin.com/in/pratham-agarwal1902/" target="_blank" class="social-link">
+                            <i class="fab fa-linkedin"></i>
+                            <span>LinkedIn</span>
+                        </a>
+                        <a href="https://github.com/Pratham-agg19" target="_blank" class="social-link">
+                            <i class="fab fa-github"></i>
+                            <span>GitHub</span>
+                        </a>
+                        <a href="mailto:ansh1234agarwal@gmail.com" class="social-link">
+                            <i class="fas fa-envelope"></i>
+                            <span>ansh1234agarwal@gmail.com</span>
+                        </a>
+                    </div>
+                </div>
+                <div class="contact-form">
+                    <form action="https://formspree.io/f/mblkajkv" method="POST">
+                        <div class="form-group">
+                            <input type="text" name="name" placeholder="Your Name" required>
+                        </div>
+                        <div class="form-group">
+                            <input type="email" name="email" placeholder="Your Email" required>
+                        </div>
+                        <div class="form-group">
+                            <textarea name="message" placeholder="Your Message" rows="5" required></textarea>
+                        </div>
+                        <button type="submit" class="btn btn-primary">
+                            <i class="fas fa-paper-plane"></i> Send Message
+                        </button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <p>&copy; 2024 Pratham Agarwal. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html> 
